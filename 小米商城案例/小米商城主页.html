@@ -1,0 +1,1603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米商城</title>
+    <!-- 引入favicon图标 -->
+    <link rel="shortcut icon" href="../小米商城案例/favicon.ico">
+    <!-- 引入初始化样式文件 -->
+    <link rel="stylesheet" href="CSS/base.css">
+    <!-- 引入我们公共的样式文件 -->
+    <link rel="stylesheet" href="CSS/homepage.css">
+</head>
+
+<body>
+    <!-- header 头部制作 -->
+    <div class="header">
+        <div class="site-topbar">
+            <div class="container">
+                <div class="topbar-nav">
+                    <a href="#">小米商城</a>
+                    <span class="sep">|</span>
+                    <a href="#">MIUI</a>
+                    <span class="sep">|</span>
+                    <a href="#">loT</a>
+                    <span class="sep">|</span>
+                    <a href="#">天星数科</a>
+                    <span class="sep">|</span>
+                    <a href="#">有品</a>
+                    <span class="sep">|</span>
+                    <a href="#">小爱开放平台</a>
+                    <span class="sep">|</span>
+                    <a href="#">企业团购</a>
+                    <span class="sep">|</span>
+                    <a href="#">资质证件</a>
+                    <span class="sep">|</span>
+                    <a href="#">协议规则</a>
+                    <span class="sep">|</span>
+                    <a href="#">下载app</a>
+                    <span class="sep">|</span>
+                    <a href="#">Select Location</a>
+                </div>
+                <div class="topbar-cart">
+                    <a href="#" class="cart-mini">
+                        <em class="iconfont-cart"></em>
+                        <em class="iconfont-cart-full hide"></em>购物车
+                        <span class="cart-mini-num J_cartNum">（0）</span>
+                    </a>
+                </div>
+                <div class="topbar-info">
+                    <a href="#" class="link">登录</a>
+                    <span class="sep">|</span>
+                    <a href="#" class="link">注册</a>
+                    <span class="sep">|</span>
+                    <span class="message">
+                        <a href="#" class="J_needAgreement">消息通知</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="site-header">
+            <div class="container">
+                <div class="header-logo">
+                    <a href="https://www.mi.com/" title="小米官网" class="logo ir"></a>
+                </div>
+                <div class="header-nav">
+                    <ul class="nav-list J_navMainList clearfix">
+                        <li class="nav-category">
+                            <a href="#" class="link-category">
+                                <!-- 全部商品分类侧边栏 -->
+                                <span class="text">全部商品分类</span>
+                            </a>
+                            <div class="site-category" style="display: block;">
+                                <ul class="site-category-list clearfix site-category-list-custom">
+                                    <li class="category-item"><a href="#" class="title">手机<em class="iconfont-arrow-right-big"></em></a></li>
+                                    <li class="category-item"><a href="#" class="title">电视<em class="iconfont-arrow-right-big"></em></a></li>
+                                    <li class="category-item"><a href="#" class="title">笔记本 平板<em class="iconfont-arrow-right-big"></em></a></li>
+                                    <li class="category-item"><a href="#" class="title">家电<em class="iconfont-arrow-right-big"></em></a></li>
+                                    <li class="category-item"><a href="#" class="title">出行 穿戴<em class="iconfont-arrow-right-big"></em></a></li>
+                                    <li class="category-item"><a href="#" class="title">智能 路由器<em class="iconfont-arrow-right-big"></em></a></li>
+                                    <li class="category-item"><a href="#" class="title">电源 配件<em class="iconfont-arrow-right-big"></em></a></li>
+                                    <li class="category-item"><a href="#" class="title">健康 儿童<em class="iconfont-arrow-right-big"></em></a></li>
+                                    <li class="category-item"><a href="#" class="title">耳机 音响<em class="iconfont-arrow-right-big"></em></a></li>
+                                    <li class="category-item"><a href="#" class="title">生活 箱包<em class="iconfont-arrow-right-big"></em></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="link"><span class="text">Xiaomi手机</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="link"><span class="text">Redmi红米</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="link"><span class="text">电视</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="link"><span class="text">笔记本</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="link"><span class="text">平板</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="link"><span class="text">家电</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="link"><span class="text">路由器</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="link"><span class="text">服务</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="link"><span class="text">社区</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-search">
+                    <form action="" class="search-form clearfix">
+                        <a href="#" class="no-style-mq">
+                            <input type="search" class="search-text" placeholder="耳机" />
+                        </a>
+                        <a href="#" class="no-style-mq">
+                            <input type="submit" class="search-btn iconfont" />
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 轮播图部分制作 -->
+    <div class="home-hero-container container">
+        <div class="home-hero">
+            <div class="swiper-container home-hero-swiper swiper-no-swiping">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slider1">
+                        <a href="#"><img src="../小米商城案例/image/f42e2f6fdfbdf4bf1bd06417cda33c20.jpg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide slider2">
+                        <a href="#"><img src="../小米商城案例/image/de5e69bd6f2f4e3bf5b9ea2651e2ddf8.webp" alt=""></a>
+                    </div>
+                    <div class="swiper-slide slider3">
+                        <a href="#"><img src="../小米商城案例/image/ff7e602baf3a919636f5c519b74bf142.webp" alt=""></a>
+                    </div>
+                    <div class="swiper-slide slider4">
+                        <a href="#"><img src="../小米商城案例/image/d0c282796fb6fb042e90d589ac7e6520.webp" alt=""></a>
+                    </div>
+                    <div class="swiper-slide slider5">
+                        <a href="#"><img src="../小米商城案例/image/dd994d938a1e6e633620d4d590b90653.webp" alt=""></a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <span class="swiper-notification"></span>
+            </div>
+            <div class="home-hero-sub row">
+                <div class="span4">
+                    <ul class="home-channel-list clearfix">
+                        <li>
+                            <a href="#">
+                                <img src="image/baozhan.png" alt="保障服务"> 保障服务
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="image/qiye.png" alt="企业团购"> 企业团购
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="image/Fma.png" alt="F码通道"> F码通道
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="image/mifen.png" alt="米粉卡"> 米粉卡
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="image/yijiu.png" alt="以旧换新"> 以旧换新
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="image/huafei.png" alt="话费充值"> 话费充值
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="span16">
+                    <ul class="home-promo-list clearfix">
+                        <li class="first">
+                            <a href="#"><img src="image/first redmik50.jpg" alt=""></a>
+                        </li>
+                        <li class="">
+                            <a href="#">
+                                <img src="image/second redmik50.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="image/third redmik50.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 更多商品模块制作 -->
+    <div class="page-main home-main">
+        <div class="container">
+            <div class="home-banner-box">
+                <a href="#"><img src="image/sucai1.webp" alt=""></a>
+            </div>
+            <!--  -->
+            <!--  -->
+            <!-- 手机部分 -->
+            <div class="home-brick-box home-brick-row-2-box xm-plain-box">
+                <div class="box-hd">
+                    <h2 class="title">手机</h2>
+                    <div class="more">
+                        <a href="#" class="more-link">
+                            查看更多<i class="iconfont iconfont-arrow-right-big"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="box-bd clearfix">
+                    <div class="row">
+                        <div class="span4">
+                            <ul class="brick-promo-list clearfix">
+                                <li class="brick-item brick-item-l">
+                                    <a href="#"><img src="image/shouji1.webp" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="span16">
+                            <ul class="brick-list clearfix">
+                                <li class="brick-item brick-item-m brick-item-m-2">
+                                    <a href="#">
+                                        <div class="figure figure-img"><img src="image/更多商品/手机/1.webp" alt=""></div>
+                                        <h3 class="title">Redmi 10A</h3>
+                                        <p class="desc">大电量，大音量，大屏幕</p>
+                                        <p class="price">
+                                            <span class="num">649</span>元<span>起</span>
+                                            <del><span class="num">699</span>元</del>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item brick-item-m brick-item-m-2">
+                                    <a href="#">
+                                        <div class="figure figure-img"><img src="image/更多商品/手机/2.webp" alt=""></div>
+                                        <h3 class="title">Redmi K50 Pro</h3>
+                                        <p class="desc">2K直屏的狠旗舰</p>
+                                        <p class="price">
+                                            <span class="num">2999</span>元<span>起</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item brick-item-m brick-item-m-2">
+                                    <a href="#">
+                                        <div class="figure figure-img"><img src="image/更多商品/手机/3.webp" alt=""></div>
+                                        <h3 class="title">Redmi K50</h3>
+                                        <p class="desc">2K直屏的狠旗舰</p>
+                                        <p class="price">
+                                            <span class="num">2399</span>元<span>起</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item brick-item-m brick-item-m-2">
+                                    <a href="#">
+                                        <div class="figure figure-img"><img src="image/更多商品/手机/4.webp" alt=""></div>
+                                        <h3 class="title">Redmi K40S</h3>
+                                        <p class="desc">口碑真旗舰</p>
+                                        <p class="price">
+                                            <span class="num">1799</span>元<span>起</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item brick-item-m brick-item-m-2">
+                                    <a href="#">
+                                        <div class="figure figure-img"><img src="image/更多商品/手机/5.webp" alt=""></div>
+                                        <h3 class="title">Redmi K50 电竞版</h3>
+                                        <p class="desc">全线拉满的冷血旗舰</p>
+                                        <p class="price">
+                                            <span class="num">3299</span>元<span>起</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item brick-item-m brick-item-m-2">
+                                    <a href="#">
+                                        <div class="figure figure-img"><img src="image/更多商品/手机/6.webp" alt=""></div>
+                                        <h3 class="title">Xiaomi 12 Pro</h3>
+                                        <p class="desc">全新骁龙8 | 2K AMOLED屏幕</p>
+                                        <p class="price">
+                                            <span class="num">4699</span>元<span>起</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item brick-item-m brick-item-m-2">
+                                    <a href="#">
+                                        <div class="figure figure-img"><img src="image/更多商品/手机/7.webp" alt=""></div>
+                                        <h3 class="title">Xiaomi 12</h3>
+                                        <p class="desc">全新骁龙9 | 5000万主摄</p>
+                                        <p class="price">
+                                            <span class="num"></span>元<span>起</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="brick-item brick-item-m brick-item-m-2">
+                                    <a href="#">
+                                        <div class="figure figure-img"><img src="image/更多商品/手机/8.webp" alt=""></div>
+                                        <h3 class="title">Xiaomi 12X</h3>
+                                        <p class="desc">骁龙870 | 5000万主摄</p>
+                                        <p class="price">
+                                            <span class="num"></span>元<span>起</span>
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 智能穿戴部分 -->
+            <div class="home-brick-box home-brick-row-2-box xm-plain-box">
+                <div class="box-hd">
+                    <h2 class="title">智能穿戴</h2>
+                    <div class="more">
+                        <ul class="tab-list">
+                            <li class="tab-active">热门</li>
+                            <li class="tab-active">穿戴</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box-bd clearfix">
+                    <div class="row">
+                        <div class="span4">
+                            <ul class="brick-promo-list clearfix">
+                                <li class="brick-item brick-item-l">
+                                    <a href="#"><img src="image/shouji1.webp" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="span16">
+                            <ul class="brick-list clearfix">
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/1.webp" alt=""></div>
+                                            <h3 class="title">Redmi 10A</h3>
+                                            <p class="desc">大电量，大音量，大屏幕</p>
+                                            <p class="price">
+                                                <span class="num">649</span>元<span>起</span>
+                                                <del><span class="num">699</span>元</del>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/2.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50 Pro</h3>
+                                            <p class="desc">2K直屏的狠旗舰</p>
+                                            <p class="price">
+                                                <span class="num">2999</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/3.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50</h3>
+                                            <p class="desc">2K直屏的狠旗舰</p>
+                                            <p class="price">
+                                                <span class="num">2399</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/4.webp" alt=""></div>
+                                            <h3 class="title">Redmi K40S</h3>
+                                            <p class="desc">口碑真旗舰</p>
+                                            <p class="price">
+                                                <span class="num">1799</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/5.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50 电竞版</h3>
+                                            <p class="desc">全线拉满的冷血旗舰</p>
+                                            <p class="price">
+                                                <span class="num">3299</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/6.webp" alt=""></div>
+                                            <h3 class="title">Xiaomi 12 Pro</h3>
+                                            <p class="desc">全新骁龙8 | 2K AMOLED屏幕</p>
+                                            <p class="price">
+                                                <span class="num">4699</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/7.webp" alt=""></div>
+                                            <h3 class="title">Xiaomi 12</h3>
+                                            <p class="desc">全新骁龙9 | 5000万主摄</p>
+                                            <p class="price">
+                                                <span class="num"></span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-s">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/智能穿戴/zhineng1.webp" alt=""></div>
+                                            <h3 class="title">Redmi Buds3 青春版</h3>
+                                            <p class="price">
+                                                <span class="num">99</span>元
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="brick-item brick-item-s">
+                                        <a href="#">
+                                            <div class="figure figure-more">
+                                                <i class="iconfont iconfont-circle-arrow-right"></i>
+                                            </div>
+                                            <div class="more">浏览更多<small>热门</small></div>
+                                        </a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 笔记本 平板部分 -->
+            <div class="home-brick-box home-brick-row-2-box xm-plain-box">
+                <div class="box-hd">
+                    <h2 class="title">笔记本 | 平板</h2>
+                    <div class="more">
+                        <ul class="tab-list">
+                            <li class="tab-active">热门</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box-bd clearfix">
+                    <div class="row">
+                        <div class="span4">
+                            <ul class="brick-promo-list clearfix">
+                                <li class="brick-item brick-item-l">
+                                    <a href="#"><img src="image/shouji1.webp" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="span16">
+                            <ul class="brick-list clearfix">
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/1.webp" alt=""></div>
+                                            <h3 class="title">Redmi 10A</h3>
+                                            <p class="desc">大电量，大音量，大屏幕</p>
+                                            <p class="price">
+                                                <span class="num">649</span>元<span>起</span>
+                                                <del><span class="num">699</span>元</del>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/2.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50 Pro</h3>
+                                            <p class="desc">2K直屏的狠旗舰</p>
+                                            <p class="price">
+                                                <span class="num">2999</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/3.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50</h3>
+                                            <p class="desc">2K直屏的狠旗舰</p>
+                                            <p class="price">
+                                                <span class="num">2399</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/4.webp" alt=""></div>
+                                            <h3 class="title">Redmi K40S</h3>
+                                            <p class="desc">口碑真旗舰</p>
+                                            <p class="price">
+                                                <span class="num">1799</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/5.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50 电竞版</h3>
+                                            <p class="desc">全线拉满的冷血旗舰</p>
+                                            <p class="price">
+                                                <span class="num">3299</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/6.webp" alt=""></div>
+                                            <h3 class="title">Xiaomi 12 Pro</h3>
+                                            <p class="desc">全新骁龙8 | 2K AMOLED屏幕</p>
+                                            <p class="price">
+                                                <span class="num">4699</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/7.webp" alt=""></div>
+                                            <h3 class="title">Xiaomi 12</h3>
+                                            <p class="desc">全新骁龙9 | 5000万主摄</p>
+                                            <p class="price">
+                                                <span class="num"></span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-s">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/智能穿戴/zhineng1.webp" alt=""></div>
+                                            <h3 class="title">Redmi Buds3 青春版</h3>
+                                            <p class="price">
+                                                <span class="num">99</span>元
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="brick-item brick-item-s">
+                                        <a href="#">
+                                            <div class="figure figure-more">
+                                                <i class="iconfont iconfont-circle-arrow-right"></i>
+                                            </div>
+                                            <div class="more">浏览更多<small>热门</small></div>
+                                        </a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 家电部分 -->
+            <div class="home-brick-box home-brick-row-2-box xm-plain-box">
+                <div class="box-hd">
+                    <h2 class="title">家电</h2>
+                    <div class="more">
+                        <ul class="tab-list">
+                            <li class="tab-active">热门</li>
+                            <li class="tab-active">电视影音</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box-bd clearfix">
+                    <div class="row">
+                        <div class="span4">
+                            <ul class="brick-promo-list clearfix">
+                                <li class="brick-item brick-item-m">
+                                    <a href="#"><img src="image/更多商品/家电/jiad1.webp" alt=""></a>
+                                </li>
+                                <li class="brick-item brick-item-m">
+                                    <a href="#"><img src="image/更多商品/家电/jiad2.webp" alt=""></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="span16">
+                            <ul class="brick-list clearfix">
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/1.webp" alt=""></div>
+                                            <h3 class="title">Redmi 10A</h3>
+                                            <p class="desc">大电量，大音量，大屏幕</p>
+                                            <p class="price">
+                                                <span class="num">649</span>元<span>起</span>
+                                                <del><span class="num">699</span>元</del>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/2.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50 Pro</h3>
+                                            <p class="desc">2K直屏的狠旗舰</p>
+                                            <p class="price">
+                                                <span class="num">2999</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/3.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50</h3>
+                                            <p class="desc">2K直屏的狠旗舰</p>
+                                            <p class="price">
+                                                <span class="num">2399</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/4.webp" alt=""></div>
+                                            <h3 class="title">Redmi K40S</h3>
+                                            <p class="desc">口碑真旗舰</p>
+                                            <p class="price">
+                                                <span class="num">1799</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/5.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50 电竞版</h3>
+                                            <p class="desc">全线拉满的冷血旗舰</p>
+                                            <p class="price">
+                                                <span class="num">3299</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/6.webp" alt=""></div>
+                                            <h3 class="title">Xiaomi 12 Pro</h3>
+                                            <p class="desc">全新骁龙8 | 2K AMOLED屏幕</p>
+                                            <p class="price">
+                                                <span class="num">4699</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/7.webp" alt=""></div>
+                                            <h3 class="title">Xiaomi 12</h3>
+                                            <p class="desc">全新骁龙9 | 5000万主摄</p>
+                                            <p class="price">
+                                                <span class="num"></span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-s">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/智能穿戴/zhineng1.webp" alt=""></div>
+                                            <h3 class="title">Redmi Buds3 青春版</h3>
+                                            <p class="price">
+                                                <span class="num">99</span>元
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="brick-item brick-item-s">
+                                        <a href="#">
+                                            <div class="figure figure-more">
+                                                <i class="iconfont iconfont-circle-arrow-right"></i>
+                                            </div>
+                                            <div class="more">浏览更多<small>热门</small></div>
+                                        </a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 生活电器部分 -->
+            <div class="home-brick-box home-brick-row-2-box xm-plain-box">
+                <div class="box-hd">
+                    <h2 class="title">生活方式</h2>
+                    <div class="more">
+                        <ul class="tab-list">
+                            <li class="tab-active">扫地机</li>
+                            <li class="tab-active">空净</li>
+                            <li class="tab-active">清洁</li>
+                            <li class="tab-active">风扇</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box-bd clearfix">
+                    <div class="row">
+                        <div class="span4">
+                            <ul class="brick-promo-list clearfix">
+                                <li class="brick-item brick-item-m">
+                                    <a href="#"><img src="image/更多商品/家电/jiad1.webp" alt=""></a>
+                                </li>
+                                <li class="brick-item brick-item-m">
+                                    <a href="#"><img src="image/更多商品/家电/jiad2.webp" alt=""></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="span16">
+                            <ul class="brick-list clearfix">
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/1.webp" alt=""></div>
+                                            <h3 class="title">Redmi 10A</h3>
+                                            <p class="desc">大电量，大音量，大屏幕</p>
+                                            <p class="price">
+                                                <span class="num">649</span>元<span>起</span>
+                                                <del><span class="num">699</span>元</del>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/2.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50 Pro</h3>
+                                            <p class="desc">2K直屏的狠旗舰</p>
+                                            <p class="price">
+                                                <span class="num">2999</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/3.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50</h3>
+                                            <p class="desc">2K直屏的狠旗舰</p>
+                                            <p class="price">
+                                                <span class="num">2399</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/4.webp" alt=""></div>
+                                            <h3 class="title">Redmi K40S</h3>
+                                            <p class="desc">口碑真旗舰</p>
+                                            <p class="price">
+                                                <span class="num">1799</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/5.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50 电竞版</h3>
+                                            <p class="desc">全线拉满的冷血旗舰</p>
+                                            <p class="price">
+                                                <span class="num">3299</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/6.webp" alt=""></div>
+                                            <h3 class="title">Xiaomi 12 Pro</h3>
+                                            <p class="desc">全新骁龙8 | 2K AMOLED屏幕</p>
+                                            <p class="price">
+                                                <span class="num">4699</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/7.webp" alt=""></div>
+                                            <h3 class="title">Xiaomi 12</h3>
+                                            <p class="desc">全新骁龙9 | 5000万主摄</p>
+                                            <p class="price">
+                                                <span class="num"></span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-s">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/智能穿戴/zhineng1.webp" alt=""></div>
+                                            <h3 class="title">Redmi Buds3 青春版</h3>
+                                            <p class="price">
+                                                <span class="num">99</span>元
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="brick-item brick-item-s">
+                                        <a href="#">
+                                            <div class="figure figure-more">
+                                                <i class="iconfont iconfont-circle-arrow-right"></i>
+                                            </div>
+                                            <div class="more">浏览更多<small>热门</small></div>
+                                        </a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="home-banner-box">
+                <a href="#"><img src="image/muxingliming.webp" alt=""></a>
+            </div>
+            <!-- 厨房电器部分 -->
+            <div class="home-brick-box home-brick-row-2-box xm-plain-box">
+                <div class="box-hd">
+                    <h2 class="title">厨房电器</h2>
+                    <div class="more">
+                        <ul class="tab-list">
+                            <li class="tab-active">净水器</li>
+                            <li class="tab-active">烟灶</li>
+                            <li class="tab-active">电饭煲</li>
+                            <li class="tab-active">微蒸烤</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box-bd clearfix">
+                    <div class="row">
+                        <div class="span4">
+                            <ul class="brick-promo-list clearfix">
+                                <li class="brick-item brick-item-m">
+                                    <a href="#"><img src="image/更多商品/家电/jiad1.webp" alt=""></a>
+                                </li>
+                                <li class="brick-item brick-item-m">
+                                    <a href="#"><img src="image/更多商品/家电/jiad2.webp" alt=""></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="span16">
+                            <ul class="brick-list clearfix">
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/1.webp" alt=""></div>
+                                            <h3 class="title">Redmi 10A</h3>
+                                            <p class="desc">大电量，大音量，大屏幕</p>
+                                            <p class="price">
+                                                <span class="num">649</span>元<span>起</span>
+                                                <del><span class="num">699</span>元</del>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/2.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50 Pro</h3>
+                                            <p class="desc">2K直屏的狠旗舰</p>
+                                            <p class="price">
+                                                <span class="num">2999</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/3.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50</h3>
+                                            <p class="desc">2K直屏的狠旗舰</p>
+                                            <p class="price">
+                                                <span class="num">2399</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/4.webp" alt=""></div>
+                                            <h3 class="title">Redmi K40S</h3>
+                                            <p class="desc">口碑真旗舰</p>
+                                            <p class="price">
+                                                <span class="num">1799</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/5.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50 电竞版</h3>
+                                            <p class="desc">全线拉满的冷血旗舰</p>
+                                            <p class="price">
+                                                <span class="num">3299</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/6.webp" alt=""></div>
+                                            <h3 class="title">Xiaomi 12 Pro</h3>
+                                            <p class="desc">全新骁龙8 | 2K AMOLED屏幕</p>
+                                            <p class="price">
+                                                <span class="num">4699</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/7.webp" alt=""></div>
+                                            <h3 class="title">Xiaomi 12</h3>
+                                            <p class="desc">全新骁龙9 | 5000万主摄</p>
+                                            <p class="price">
+                                                <span class="num"></span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-s">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/智能穿戴/zhineng1.webp" alt=""></div>
+                                            <h3 class="title">Redmi Buds3 青春版</h3>
+                                            <p class="price">
+                                                <span class="num">99</span>元
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="brick-item brick-item-s">
+                                        <a href="#">
+                                            <div class="figure figure-more">
+                                                <i class="iconfont iconfont-circle-arrow-right"></i>
+                                            </div>
+                                            <div class="more">浏览更多<small>热门</small></div>
+                                        </a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 智能家居部分 -->
+            <div class="home-brick-box home-brick-row-2-box xm-plain-box">
+                <div class="box-hd">
+                    <h2 class="title">智能家居</h2>
+                    <div class="more">
+                        <ul class="tab-list">
+                            <li class="tab-active">小爱音箱</li>
+                            <li class="tab-active">门锁</li>
+                            <li class="tab-active">路由器</li>
+                            <li class="tab-active">智能设备</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box-bd clearfix">
+                    <div class="row">
+                        <div class="span4">
+                            <ul class="brick-promo-list clearfix">
+                                <li class="brick-item brick-item-m">
+                                    <a href="#"><img src="image/更多商品/家电/jiad1.webp" alt=""></a>
+                                </li>
+                                <li class="brick-item brick-item-m">
+                                    <a href="#"><img src="image/更多商品/家电/jiad2.webp" alt=""></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="span16">
+                            <ul class="brick-list clearfix">
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/1.webp" alt=""></div>
+                                            <h3 class="title">Redmi 10A</h3>
+                                            <p class="desc">大电量，大音量，大屏幕</p>
+                                            <p class="price">
+                                                <span class="num">649</span>元<span>起</span>
+                                                <del><span class="num">699</span>元</del>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/2.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50 Pro</h3>
+                                            <p class="desc">2K直屏的狠旗舰</p>
+                                            <p class="price">
+                                                <span class="num">2999</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/3.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50</h3>
+                                            <p class="desc">2K直屏的狠旗舰</p>
+                                            <p class="price">
+                                                <span class="num">2399</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/4.webp" alt=""></div>
+                                            <h3 class="title">Redmi K40S</h3>
+                                            <p class="desc">口碑真旗舰</p>
+                                            <p class="price">
+                                                <span class="num">1799</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/5.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50 电竞版</h3>
+                                            <p class="desc">全线拉满的冷血旗舰</p>
+                                            <p class="price">
+                                                <span class="num">3299</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/6.webp" alt=""></div>
+                                            <h3 class="title">Xiaomi 12 Pro</h3>
+                                            <p class="desc">全新骁龙8 | 2K AMOLED屏幕</p>
+                                            <p class="price">
+                                                <span class="num">4699</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/7.webp" alt=""></div>
+                                            <h3 class="title">Xiaomi 12</h3>
+                                            <p class="desc">全新骁龙9 | 5000万主摄</p>
+                                            <p class="price">
+                                                <span class="num"></span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-s">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/智能穿戴/zhineng1.webp" alt=""></div>
+                                            <h3 class="title">Redmi Buds3 青春版</h3>
+                                            <p class="price">
+                                                <span class="num">99</span>元
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="brick-item brick-item-s">
+                                        <a href="#">
+                                            <div class="figure figure-more">
+                                                <i class="iconfont iconfont-circle-arrow-right"></i>
+                                            </div>
+                                            <div class="more">浏览更多<small>热门</small></div>
+                                        </a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 运动出行部分 -->
+            <div class="home-brick-box home-brick-row-2-box xm-plain-box">
+                <div class="box-hd">
+                    <h2 class="title">运动出行</h2>
+                    <div class="more">
+                        <ul class="tab-list">
+                            <li class="tab-active">平衡车/滑板车</li>
+                            <li class="tab-active">运动健身</li>
+                            <li class="tab-active">箱包配饰</li>
+                            <li class="tab-active">出行工具</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box-bd clearfix">
+                    <div class="row">
+                        <div class="span4">
+                            <ul class="brick-promo-list clearfix">
+                                <li class="brick-item brick-item-m">
+                                    <a href="#"><img src="image/更多商品/家电/jiad1.webp" alt=""></a>
+                                </li>
+                                <li class="brick-item brick-item-m">
+                                    <a href="#"><img src="image/更多商品/家电/jiad2.webp" alt=""></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="span16">
+                            <ul class="brick-list clearfix">
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/1.webp" alt=""></div>
+                                            <h3 class="title">Redmi 10A</h3>
+                                            <p class="desc">大电量，大音量，大屏幕</p>
+                                            <p class="price">
+                                                <span class="num">649</span>元<span>起</span>
+                                                <del><span class="num">699</span>元</del>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/2.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50 Pro</h3>
+                                            <p class="desc">2K直屏的狠旗舰</p>
+                                            <p class="price">
+                                                <span class="num">2999</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/3.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50</h3>
+                                            <p class="desc">2K直屏的狠旗舰</p>
+                                            <p class="price">
+                                                <span class="num">2399</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/4.webp" alt=""></div>
+                                            <h3 class="title">Redmi K40S</h3>
+                                            <p class="desc">口碑真旗舰</p>
+                                            <p class="price">
+                                                <span class="num">1799</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/5.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50 电竞版</h3>
+                                            <p class="desc">全线拉满的冷血旗舰</p>
+                                            <p class="price">
+                                                <span class="num">3299</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/6.webp" alt=""></div>
+                                            <h3 class="title">Xiaomi 12 Pro</h3>
+                                            <p class="desc">全新骁龙8 | 2K AMOLED屏幕</p>
+                                            <p class="price">
+                                                <span class="num">4699</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/7.webp" alt=""></div>
+                                            <h3 class="title">Xiaomi 12</h3>
+                                            <p class="desc">全新骁龙9 | 5000万主摄</p>
+                                            <p class="price">
+                                                <span class="num"></span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-s">
+                                        <a href="#">
+                                            <div class="figure figure-more">
+                                                <i class="iconfont iconfont-circle-arrow-right"></i>
+                                            </div>
+                                            <div class="more">浏览更多<small>热门</small></div>
+                                        </a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="home-banner-box">
+                <a href="#"><img src="image/muxingliming.webp" alt=""></a>
+            </div>
+            <!-- 日用百货部分 -->
+            <div class="home-brick-box home-brick-row-2-box xm-plain-box">
+                <div class="box-hd">
+                    <h2 class="title">日用百货</h2>
+                    <div class="more">
+                        <ul class="tab-list">
+                            <li class="tab-active">个护健康</li>
+                            <li class="tab-active">电源/线材</li>
+                            <li class="tab-active">儿童用品</li>
+                            <li class="tab-active">家居床品</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box-bd clearfix">
+                    <div class="row">
+                        <div class="span4">
+                            <ul class="brick-promo-list clearfix">
+                                <li class="brick-item brick-item-m">
+                                    <a href="#"><img src="image/更多商品/家电/jiad1.webp" alt=""></a>
+                                </li>
+                                <li class="brick-item brick-item-m">
+                                    <a href="#"><img src="image/更多商品/家电/jiad2.webp" alt=""></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="span16">
+                            <ul class="brick-list clearfix">
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/1.webp" alt=""></div>
+                                            <h3 class="title">Redmi 10A</h3>
+                                            <p class="desc">大电量，大音量，大屏幕</p>
+                                            <p class="price">
+                                                <span class="num">649</span>元<span>起</span>
+                                                <del><span class="num">699</span>元</del>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/2.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50 Pro</h3>
+                                            <p class="desc">2K直屏的狠旗舰</p>
+                                            <p class="price">
+                                                <span class="num">2999</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/3.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50</h3>
+                                            <p class="desc">2K直屏的狠旗舰</p>
+                                            <p class="price">
+                                                <span class="num">2399</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/4.webp" alt=""></div>
+                                            <h3 class="title">Redmi K40S</h3>
+                                            <p class="desc">口碑真旗舰</p>
+                                            <p class="price">
+                                                <span class="num">1799</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/5.webp" alt=""></div>
+                                            <h3 class="title">Redmi K50 电竞版</h3>
+                                            <p class="desc">全线拉满的冷血旗舰</p>
+                                            <p class="price">
+                                                <span class="num">3299</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/6.webp" alt=""></div>
+                                            <h3 class="title">Xiaomi 12 Pro</h3>
+                                            <p class="desc">全新骁龙8 | 2K AMOLED屏幕</p>
+                                            <p class="price">
+                                                <span class="num">4699</span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-m brick-item-m-2">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/手机/7.webp" alt=""></div>
+                                            <h3 class="title">Xiaomi 12</h3>
+                                            <p class="desc">全新骁龙9 | 5000万主摄</p>
+                                            <p class="price">
+                                                <span class="num"></span>元<span>起</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div>
+                                    <li class="brick-item brick-item-s">
+                                        <a href="#">
+                                            <div class="figure figure-img"><img src="image/更多商品/智能穿戴/zhineng1.webp" alt=""></div>
+                                            <h3 class="title">Redmi Buds3 青春版</h3>
+                                            <p class="price">
+                                                <span class="num">99</span>元
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="brick-item brick-item-s">
+                                        <a href="#">
+                                            <div class="figure figure-more">
+                                                <i class="iconfont iconfont-circle-arrow-right"></i>
+                                            </div>
+                                            <div class="more">浏览更多<small>热门</small></div>
+                                        </a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 视频部分 -->
+            <div class="home-video-box xm-plain-box">
+                <div class="box-hd">
+                    <div class="title">视频</div>
+                    <div class="more">
+                        <a href="#" class="more-link">查看全部<i class="iconfont iconfont-arrow-right-big"></i></a>
+                    </div>
+                </div>
+                <div class="box-bd clearfix">
+                    <ul class="video-list clearfix">
+                        <li class="video-item">
+                            <a href="#">
+                                <div class="figure figure-img">
+                                    <img src="image/更多商品/视频/ship1.webp" alt="">
+                                    <span class="play">
+                                        <i class="iconfont-play"></i>
+                                    </span>
+                                </div>
+                                <h3 class="title">2021年春季新品发布会第一现场</h3>
+                                <p class="desc"></p>
+                            </a>
+                        </li>
+                        <li class="video-item">
+                            <a href="#">
+                                <div class="figure figure-img">
+                                    <img src="image/更多商品/视频/ship2.webp" alt="">
+                                    <span class="play">
+                                        <i class="iconfont-play"></i>
+                                    </span>
+                                </div>
+                                <h3 class="title">Redmi 10X系列发布会</h3>
+                                <p class="desc">Redmi 10X系列发布会</p>
+                            </a>
+                        </li>
+                        <li class="video-item">
+                            <a href="#">
+                                <div class="figure figure-img">
+                                    <img src="image/更多商品/视频/ship3.webp" alt="">
+                                    <span class="play">
+                                        <i class="iconfont-play"></i>
+                                    </span>
+                                </div>
+                                <h3 class="title">小米10 青春版 发布会</h3>
+                                <p class="desc"></p>
+                            </a>
+                        </li>
+                        <li class="video-item">
+                            <a href="#">
+                                <div class="figure figure-img">
+                                    <img src="image/更多商品/视频/ship4.webp" alt="">
+                                    <span class="play">
+                                        <i class="iconfont-play"></i>
+                                    </span>
+                                </div>
+                                <h3 class="title">小米10 8K手机拍大片</h3>
+                                <p class="desc"></p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer 部分 -->
+    <div class="site-footer">
+        <div class="container">
+            <div class="footer-service">
+                <ul class="list-service clearfix">
+                    <li><a href="#"><em class="iconfont-tool"></em>预约维修服务</a></li>
+                    <li><a href="#"><em class="iconfont-circle-7"></em>7天无理由退货</a></li>
+                    <li><a href="#"><em class="iconfont-circle-15"></em>15天免费换货</a></li>
+                    <li><a href="#"><em class="iconfont-gift"></em>满69包邮</a></li>
+                    <li><a href="#"><em class="iconfont-location"></em>520余家售后网点</a></li>
+                </ul>
+            </div>
+            <div class="footer-links clearfix">
+                <dl class="col-links col-links-first">
+                    <dt>帮助中心</dt>
+                    <dd><a href="#">账户管理</a></dd>
+                    <dd><a href="#">购物指南</a></dd>
+                    <dd><a href="#">订单操作</a></dd>
+                </dl>
+                <dl class="col-links">
+                    <dt>服务支持</dt>
+                    <dd><a href="#">售后政策</a></dd>
+                    <dd><a href="#">自助服务</a></dd>
+                    <dd><a href="#">相关下载</a></dd>
+                </dl>
+                <dl class="col-links">
+                    <dt>线下门店</dt>
+                    <dd><a href="#">小米之家</a></dd>
+                    <dd><a href="#">服务网点</a></dd>
+                    <dd><a href="#">授权体验店/专区</a></dd>
+                </dl>
+                <dl class="col-links">
+                    <dt>关于小米</dt>
+                    <dd><a href="#">了解小米</a></dd>
+                    <dd><a href="#">加入小米</a></dd>
+                    <dd><a href="#">投资者关系</a></dd>
+                    <dd><a href="#">企业社会责任</a></dd>
+                    <dd><a href="#">廉洁举报</a></dd>
+                </dl>
+                <dl class="col-links">
+                    <dt>关注我们</dt>
+                    <dd><a href="#">新浪微博</a></dd>
+                    <dd><a href="#">官方微信</a></dd>
+                    <dd><a href="#">联系我们</a></dd>
+                    <dd><a href="#">公益基金会</a></dd>
+                </dl>
+                <dl class="col-links">
+                    <dt>特色服务</dt>
+                    <dd><a href="#">F码通道</a></dd>
+                    <dd><a href="#">礼物码</a></dd>
+                    <dd><a href="#">防伪查询</a></dd>
+                </dl>
+                <div class="col-contact">
+                    <p class="phone">400-100-5678</p>
+                    <p>8:00-18:00（仅收市话费）</p>
+                    <a href="#" class="btn btn-line-primary btn-small J-contactBtn">
+                        <em class="iconfont-message2"></em> 人工客服
+                    </a>
+                    <div class="follow">关注小米：
+                        <a href="#" class="web"></a>
+                        <a href="#" class="wx"></a>
+                        <img src="image/wx-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 最底层部分 -->
+    <div class="site-info">
+        <div class="container">
+            <div class="logo ir">小米官网</div>
+            <div class="info-text">
+                <p class="sites">
+                    <a href="#">小米商城</a>
+                    <span class="sep">|</span>
+                    <a href="#">MIUI</a>
+                    <span class="sep">|</span>
+                    <a href="#">米家</a>
+                    <span class="sep">|</span>
+                    <a href="#">米聊</a>
+                    <span class="sep">|</span>
+                    <a href="#">多看</a>
+                    <span class="sep">|</span>
+                    <a href="#">游戏</a>
+                    <span class="sep">|</span>
+                    <a href="#">政企服务</a>
+                    <span class="sep">|</span>
+                    <a href="#">小米天猫商店</a>
+                    <span class="sep">|</span>
+                    <a href="#">小米集团隐私政策</a>
+                    <span class="sep">|</span>
+                    <a href="#">小米公司儿童信息保护规则</a>
+                    <span class="sep">|</span>
+                    <a href="#">小米商城隐私政策</a>
+                    <span class="sep">|</span>
+                    <a href="#">小米商城用户协议</a>
+                    <span class="sep">|</span>
+                    <a href="#">问题反馈</a>
+                    <span class="sep">|</span>
+                    <a href="#">Select Location</a>
+                </p>
+                <p class="sites">
+                    <a href="#">北京互联网法院法律服务工作站</a>
+                    <span class="sep">|</span>
+                    <a href="#">中国消费者协会</a>
+                    <span class="sep">|</span>
+                    <a href="#">北京市消费者协会</a>
+                </p>
+                <p>
+                    ©
+                    <a href="#" title="mi.com">mi.com</a> 京ICP证110507号
+                    <a href="">京ICP证10046444号</a>
+                    <a href="#">京公网安备11010802020134号</a>
+                    <a href="#">京网文[2020]0276-042号</a>
+                    <br>
+                    <a href="#">(京)网械平台备字（2018）第0005号</a>
+                    <a href="#">互联网药品信息服务资格证（京）-非经营性-2014-0090</a>
+                    <a href="#">营业执照</a>
+                    <a href="#">医疗器械质量公告</a>
+                    <br>
+                    <a href="#">增值电信业务许可证</a> &nbsp;网络食品经营备案 京食药网食备202010048 &nbsp;
+                    <a href="#">食品经营许可证</a>
+                    <br> 违法和不良信息举报电话：171-5104-4404 &nbsp;
+                    <a href="#">知识产权倾权投诉</a> &nbsp;本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+                </p>
+            </div>
+            <div class="info-links"></div>
+        </div>
+        <div class="slogan ir">探索黑科技，小米为发烧而生</div>
+    </div>
+</body>
+
+</html>
